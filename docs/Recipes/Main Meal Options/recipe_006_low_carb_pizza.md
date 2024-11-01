@@ -17,8 +17,8 @@ The Garlic Bread tastes great with [Minty Basil Mushroom Soup](../Snacks%20and%2
 !!! danger
     As this recipe is based mainly on wheat gluten, it is not suitable for those with Gluten Intolerance. I am sure it's obvious but still.
 
-{{"""
->> Serving Size:  6
+```cooklang
+>> Serving Size: 6
 >> Cooking Time: 30 minutes (Prep Time - 90 minutes)
 >> Category: Italian
 >> Type: Vegetarian
@@ -68,4 +68,4 @@ Then add @jalapenos{10%gms(8-10 rings)}.
 Finally sprinkle some more @grated mozzarella cheese{20%gms}.
 Put this into the #oven{} at 180°C for ~{20%minutes}.
 Take it out after that and cut it using #pizza cutter{}.
-""" | parse_recipe()}}
+```
