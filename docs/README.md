@@ -60,7 +60,7 @@ Details about each function and how it works are as explained below:
    - The function then returns a dictionary with the ingredient name, the parsed quantity (or "as needed" if no quantity is specified), and the units.
 
 4. `parse_timer(item: str) -> dict[str, str]`:
-   - This function parses a timer string. The input is a string starting with the '~' character, such as "~eggs{3%minutes}" or "~{25%minutes}".
+   - This function parses a timer string. The input is a string starting with the '~' character, such as `~eggs{3%minutes}` or `~{25%minutes}`.
    - It checks if the item starts with '~'. If not, it raises a `ValueError` with the message "Timer should start with ~".
    - The function splits the item at '{' and calls the `parse_quantity` function to parse the quantity portion.
    - It returns a dictionary with the timer name, the parsed quantity, and the units.
@@ -93,4 +93,4 @@ Details about each function and how it works are as explained below:
     - It is also able to do basic parsing for `if then else`, `if then elseif then else` type statements so long as the step starts with the word If and has the word then in it.
     - Look at the function code on [Jupyter File](../Cooklang%20Parser.ipynb) as it is documented to explain the flow.
 
-I will be updating the documentation but the [new Jupyter file]{https://github.com/pubmania/a_diabetics_journal/blob/main/Cooklang%20on%20material%20for%20mkdocs.ipynb} is already uploaded and I think it allows better understanding of the flow.
+I will be updating the documentation but the [new Jupyter file](https://github.com/pubmania/a_diabetics_journal/blob/main/Cooklang%20on%20material%20for%20mkdocs.ipynb) is already uploaded and I think it allows better understanding of the flow.
